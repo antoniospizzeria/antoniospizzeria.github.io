@@ -9,7 +9,7 @@
     <div class = "eventlist">
      <EventCard :key="standardevent.title" v-for="(standardevent) in standardevents" :event="standardevent" />
      <div style="border-bottom: 3px solid #FFFAA1"></div>
-     <!-- <EventCard :key="event.title" v-for="(event) in events" :event="event" /> -->
+     <EventCard :key="event.title" v-for="(event) in events" :event="event" />
     </div>
  
 
@@ -23,7 +23,7 @@
 <script>
 import emailjs from 'emailjs-com';
 import EventCard from '@/components/EventCard.vue';
-import events from '@/assets/events.json'
+// import events from '@/assets/events.json'
 
 // import CTAButtonOutside from '../components/CTAbuttonOutside.vue'
 
@@ -33,8 +33,23 @@ export default {
   name: 'EventPage',
   data() {
     return {
-      events: events,
-      standardevents: [ {
+      events: [{
+        "link": "/AntoniosPizza",
+        "month": "FEB",
+        "day": "12",
+        "title": "Steel City Scary Book Club",
+        "desc": "Meeting from 7 - 8 PM.  Now Reading: Exquisite Corpse by Poppy Z. Brite.  WARNING: EXTREME CONTENT",
+        "image": require("@/assets/images/exquisite.jpg")}],
+      
+        standardevents: [{
+      "link": "https://www.facebook.com/antoniospizzeriapgh",
+      "day": "Every Mon",
+      "month": "",
+      "title": "Vegan Chill Lounge",
+      "desc": "Chill Music, Huge Vegan Menu, Bubble Tea, Dessert, Healing Arts, Relaxation, and Fun!",
+      "image": require("@/assets/images/mondaychill.jpg")
+          }, 
+          {
       "link": "https://www.facebook.com/antoniospizzeriapgh",
       "day": "Every Tues",
       "month": "",

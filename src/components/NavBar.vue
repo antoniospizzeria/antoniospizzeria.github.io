@@ -1,17 +1,17 @@
 <template>
   <nav class="navbar  navbar-dark navbar-expand-lg bg-body-tertiary bg-dark">
     <div class="container-fluid">
-      <router-link to="/AntoniosPizza"><p @click="ShowHome()" class="navbar-brand  slide-bottom-delay" href="#"><img id="header-logo" src="../assets/images/antlogo.gif" alt="Logo" /></p></router-link>
+      <router-link to="/"><p @click="ShowHome()" class="navbar-brand  slide-bottom-delay" href="#"><img id="header-logo" src="../assets/images/antlogo.gif" alt="Logo" /></p></router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse slide-bottom navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <router-link to="/AntoniosPizza"> <p  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" @click="ShowHome()" v-bind:class="{active: HomeisActive}" class="nav-link " aria-current="page">Home</p></router-link>
+            <router-link to="/"> <p  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" @click="ShowHome()" v-bind:class="{active: HomeisActive}" class="nav-link " aria-current="page">Home</p></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/AntoniosPizza/location"><p  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" @click="ShowLocation()" v-bind:class="{active: LocationisActive}" class="nav-link" aria-current="page">Location and Hours</p></router-link>
+            <router-link to="/location"><p  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" @click="ShowLocation()" v-bind:class="{active: LocationisActive}" class="nav-link" aria-current="page">Location and Hours</p></router-link>
           </li>
           <li class="nav-item">
             <a  class="nav-link " aria-current="page" href="https://antoniospizzeria.hungerrush.com/" >Order Online</a>
@@ -21,24 +21,24 @@
               Menus
             </a>
             <ul class="dropdown-menu" >
-              <li><router-link to="/AntoniosPizza/menu/full"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" @click="ShowMenu()" v-bind:class="{active: MenuisActive}" class="dropdown-item" >Full Menu</p></router-link></li>
-              <li><router-link to="/AntoniosPizza/menu/vegan"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" @click="ToggleVegan()" v-bind:class="{active: VeganMenuisActive}" class="dropdown-item" >Vegan Menu</p></router-link></li>
+              <li><router-link to="/menu/full"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" @click="ShowMenu()" v-bind:class="{active: MenuisActive}" class="dropdown-item" >Full Menu</p></router-link></li>
+              <li><router-link to="/menu/vegan"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" @click="ToggleVegan()" v-bind:class="{active: VeganMenuisActive}" class="dropdown-item" >Vegan Menu</p></router-link></li>
             </ul>
           </li>
           <li class="nav-item">
-            <router-link to="/AntoniosPizza/vegan"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="nav-link " @click="ShowVegan()" v-bind:class="{active: VeganisActive}" aria-current="page" >Vegan Love</p></router-link>
+            <router-link to="/vegan"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="nav-link " @click="ShowVegan()" v-bind:class="{active: VeganisActive}" aria-current="page" >Vegan Love</p></router-link>
           </li>
           <!-- <li class="nav-item">
             <router-link to="/AntoniosPizza/events"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="nav-link " @click="ShowCatering()" v-bind:class="{active: CateringisActive}" aria-current="page" >Catering</p></router-link>
           </li>  -->
           <li class="nav-item">
-            <router-link to="/AntoniosPizza/events"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="nav-link " @click="ShowEvents()" v-bind:class="{active: EventsisActive}" aria-current="page" >Events</p></router-link>
+            <router-link to="/events"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="nav-link " @click="ShowEvents()" v-bind:class="{active: EventsisActive}" aria-current="page" >Events</p></router-link>
           </li> 
           <li class="nav-item">
-            <router-link to="/AntoniosPizza/about"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="nav-link " @click="ShowAbout()" v-bind:class="{active: AboutisActive}" aria-current="page" >About Us</p></router-link>
+            <router-link to="/about"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="nav-link " @click="ShowAbout()" v-bind:class="{active: AboutisActive}" aria-current="page" >About Us</p></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/AntoniosPizza/contact"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="nav-link " @click="ShowContact()" v-bind:class="{active: ContactisActive}" aria-current="page" >Contact</p></router-link>
+            <router-link to="/contact"><p data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="nav-link " @click="ShowContact()" v-bind:class="{active: ContactisActive}" aria-current="page" >Contact</p></router-link>
           </li>
         </ul> 
       </div>

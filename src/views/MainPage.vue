@@ -15,36 +15,72 @@
         <!-- Text slides with image -->
 
           <b-carousel-slide >
+            <CTAbuttonOutside class="slide-button " text='ORDER NOW!'  :link="'https://antoniospizzeria.hungerrush.com/Order/Menu/1#pizza'" /> 
+         
           <template #img>
+           
             <img
               class="d-block w-100 desktopimg"
-              style="object-fit:cover; object-position: top; height:65vh;" 
+              style="object-fit:contain; object-position: top; height:65vh;" 
               width="960"
-              src="../assets/images/turkey.jpg"
+              src="../assets/images/antfront.jpg"
               alt="image slot"
             >
 
             <img
               class="d-block w-100 mobileimg"
-              style="object-fit:cover; object-position: bottom; height:65vh;" 
+              style="object-fit:contain; object-position: middle; height:65vh;" 
               width="960"
-              src="../assets/images/turkey.jpg"
+              src="../assets/images/antfront.jpg"
               alt="image slot"
             >
           </template>
-          <div class = "fishfry taco  tweaked-color">Thanksgiving time is upon us!</div>
-          <CTAbuttonOutside class="slide-button " text='Get your Thanksgiving dinner in pizza form now!'  :link="'https://antoniospizzeria.hungerrush.com/Order/Menu/1#pizza'" />
+          <!-- <div class = "fishfry taco  tweaked-color">Introducing a new weekly event!</div> -->
+          <!-- <CTAbuttonOutside class="slide-button " text='Get your Thanksgiving dinner in pizza form now!'  :link="'https://antoniospizzeria.hungerrush.com/Order/Menu/1#pizza'" /> -->
          
         </b-carousel-slide>
+
+        <b-carousel-slide>
+          <div class = "fishfry tweaked-color">Tons of options for every taste</div>
+       <CTAbutton class="slide-button"  text='Check out our Menu' :rlink="'/menu/full'" />
+          <template #img>
+            <img
+              class="d-block w-100"
+              style="object-fit: cover; height: 65vh;"
+              width="960"
+              height="780"
+              src="../assets/images/supreme pizza.jpg"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+
+        <b-carousel-slide>
+          <div class = "fishfry tweaked-color">Grab a cool, vegan friendly, Boba drink.</div>
+          <div class = "buttonrow">
+          <CTAbutton class="slide-button"  text='Try all our flavors!' :rlink="'/menu/full'" />
+          </div>
+          <template #img>
+            <img
+              class="d-block w-100"
+              style="object-fit: cover; height:65vh;" 
+              width="960"
+              src="../assets/images/boba2.jpg"
+              alt="image slot"
+            >
+          </template>
+        </b-carousel-slide>
+
+      
 
 
         <b-carousel-slide >
           <template #img>
             <img
               class="d-block w-100 desktopimg"
-              style="object-fit:cover; object-position: top; height:65vh;" 
+              style="object-fit:contain; object-position: top; height:65vh;" 
               width="960"
-              src="../assets/images/toysfortots.jpg"
+              src="../assets/images/livemusicfri.jpg"
               alt="image slot"
             >
 
@@ -52,12 +88,12 @@
               class="d-block w-100 mobileimg"
               style="object-fit:cover; object-position: bottom; height:65vh;" 
               width="960"
-              src="../assets/images/toysfortots.jpg"
+              src="../assets/images/livemusicfri.jpg"
               alt="image slot"
             >
           </template>
-          <div class = "fishfry taco  tweaked-color">We are a designated drop-off site for Toys-For-Tots</div>
-          <CTAbuttonOutside class="slide-button " text='Learn more here'  :link="'https://www.toysfortots.org/'" />
+          <div class = "fishfry taco  tweaked-color">Live Music Every Friday Night</div>
+          <CTAbuttonOutside class="slide-button " text='Check our Facebook Page for Details'  :link="'https://www.facebook.com/antoniospittsburgh'" />
          
         </b-carousel-slide>
 
@@ -65,7 +101,7 @@
         <b-carousel-slide>
           <div class = "fishfry tweaked-color">Relax in our dining room and enjoy any number of events.</div>
           <div class = "buttonrow">
-          <CTAbutton class="slide-button"  text='See What is Coming Up!' :rlink="'/AntoniosPizza/events'" />
+          <CTAbutton class="slide-button"  text='See What is Coming Up!' :rlink="'/events'" />
           </div>
           <template #img>
             <img
@@ -117,20 +153,7 @@
          
         </b-carousel-slide> -->
 
-        <b-carousel-slide>
-          <div class = "fishfry tweaked-color">Tons of options for every taste</div>
-       <CTAbutton class="slide-button"  text='Check out our Menu' :rlink="'/AntoniosPizza/menu/full'" />
-          <template #img>
-            <img
-              class="d-block w-100"
-              style="object-fit: cover; height: 65vh;"
-              width="960"
-              height="780"
-              src="../assets/images/supreme pizza.jpg"
-              alt="image slot"
-            >
-          </template>
-        </b-carousel-slide>
+        
 
 
 
