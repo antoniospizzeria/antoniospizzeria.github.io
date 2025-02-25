@@ -1,15 +1,15 @@
 <template>
   <div class = "menu-section">
     <div class = "buffer">
-      <h1>Limited Time Specials</h1>
+      <!-- <h1>Limited Time Specials</h1> -->
     </div>
     <div class = "right-side ">
-      <div class = "food-box">
+      <!-- <div class = "food-box">
         <div class = "inner-food-box">
           <LimitedItem class="limited-box"  v-show="item.vegan === 'yes' && veganOnly === true" :key="item.name" v-for="(item) in items" :item="item" />
           <LimitedItem class="limited-box"  v-show="veganOnly === false" :key="item.name" v-for="(item) in items" :item="item" />
         </div>
-     </div>
+     </div> -->
      <div>
       <h1>Daily Coupons</h1>
     </div>
