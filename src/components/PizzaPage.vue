@@ -59,7 +59,6 @@ export default {
       { name: 'Calzone', desc: 'Mozzarella cheese, Ricotta cheese, and sauce folded up in our homemade dough', vegan: 'yes' },
       { name: 'Stromboli', desc: 'Mozarella cheese, ham, bacon, and sauce rolled up in our homemade dough', vegan: 'yes' },
       { name: 'Chicago Deep Dish', desc: 'Done in the traditional style of famous Chicago pizzaerias.  We take a flakey 12" pizza crust and stuff it full of cheese and topped with our homemade sauce and bake it in a cast iron skillet. ', vegan: 'yes' },
-      { name: 'Keto', desc: 'A 12" fat-head crust made from almond flour and mozzarella cheese topped however you like' },
       { name: 'Gluten-free', desc: 'A vegan friendly 10" pizza crust that you can top however you like', vegan: 'yes' },
       { name: 'Pizza Boat', desc: "A pizza but it's baked on a whole hoagie roll instead of a regular crust.", vegan: 'yes' },
 
@@ -149,7 +148,6 @@ export default {
     { name: 'GF 12in', price: '$11.00', vegan: 'yes' },
     { name: 'Slice', price: '$2.50', vegan: 'yes' },
     { name: 'Deep Dish', price: '$15.00',vegan: 'yes' },
-    { name: 'Keto', price: '$15.00'},
     { name: 'Pizza Boat', price: '$10.00', vegan: 'yes' },
     { name: 'Stromboli', price: '$15.00', vegan: 'yes' },
     { name: 'Calzone', price: '$15.00', vegan: 'yes' },
