@@ -42,10 +42,10 @@ export default {
 
     coupons: [
     { name: 'Small Specialty Pizza and Half Hoagie', price: '$20.00', vegan: 'yes'},
-    { name: 'Large 1-Topping Pizza',desc: 'Additional toppings can be added for an extra charge', price: '$14.00', vegan: 'yes'},
+    { name: 'Large 1-Topping Pizza',desc: 'Additional toppings can be added for an extra charge', price: '$15.00', vegan: 'yes'},
     { name: 'Two Whole Hoagies', price: '$18.00', vegan: 'yes'},
-    { name: 'Pizza Hoagie and Wings Combo',desc: 'Get a large plain pizza, whole hoagie, and a dozen wings', price: '$37.00'},
-    { name: 'Vegan Pizza Hoagie and Wings Combo',desc: 'Get a large plain pizza, whole hoagie, and a dozen seitan wings', price: '$31.00', vegan: 'yes'},
+    { name: 'Pizza Hoagie and Wings Combo',desc: 'Get a large plain pizza, whole hoagie, and a dozen wings', price: '$38.00'},
+    { name: 'Vegan Pizza Hoagie and Wings Combo',desc: 'Get a large plain pizza, whole hoagie, and a dozen seitan wings', price: '$32.00', vegan: 'yes'},
     
         
     ],

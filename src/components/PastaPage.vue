@@ -47,9 +47,9 @@ export default {
     { name: 'Stuffed Shells',desc: 'Baked with Marinara and Mozzarella Cheese', price:'$11.00' },
     ],
     gyros: [
-    { name: 'Traditional Lamb Gyro', desc: 'Topped with lettuce, tomato, onion, and tzaziki sauce.', price:'$7.00' },
-    { name: 'Chicken Gyro', desc: 'Topped with lettuce, tomato, onion, and tzaziki sauce.', price:'$7.00' },
-    { name: 'Seitan Gyro', desc: 'Topped with lettuce, tomato, and onion', price:'$7.00', vegan: 'yes' },
+    { name: 'Traditional Lamb Gyro', desc: 'Topped with lettuce, tomato, onion, and tzaziki sauce.', price:'$8.00' },
+    { name: 'Chicken Gyro', desc: 'Topped with lettuce, tomato, onion, and tzaziki sauce.', price:'$8.00' },
+    { name: 'Seitan Gyro', desc: 'Topped with lettuce, tomato, and onion', price:'$8.00', vegan: 'yes' },
     ]
   }
 },

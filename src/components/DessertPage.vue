@@ -33,11 +33,9 @@ export default {
     foodColumnWidth: '',
     items: [
     { name: 'Cinnastix', price:'$6.00', vegan: 'yes' },
-    { name: 'Apple Pie rolls', price:'$6.00', vegan: 'yes' },
-    { name: 'Vegan Cheesecake', price:'$6.00' , vegan: 'yes'},
-    { name: 'Cheesecake', price:'$5.00' },
-    { name: 'Tiramisu', price:'$6.00' },
-    { name: 'Oreo Cheesecake', price:'$6.00' },
+    { name: 'Vegan Cheesecake', price:'$7.00' , vegan: 'yes'},
+    { name: 'Cheesecake', price:'$7.00' },
+    { name: 'Tiramisu', price:'$8.00' },
      
     ]
   }
