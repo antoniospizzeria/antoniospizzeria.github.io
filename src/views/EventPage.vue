@@ -9,7 +9,7 @@
     <div class = "eventlist">
      <EventCard :key="standardevent.title" v-for="(standardevent) in standardevents" :event="standardevent" />
      <div style="border-bottom: 3px solid #FFFAA1"></div>
-     <EventCard :key="event.title" v-for="(event) in events" :event="event" />
+     <!-- <EventCard :key="event.title" v-for="(event) in events" :event="event" /> -->
     </div>
  
 
@@ -41,22 +41,8 @@ export default {
         "desc": "Meeting from 7 - 8 PM.  Now Reading: Exquisite Corpse by Poppy Z. Brite.  WARNING: EXTREME CONTENT",
         "image": require("@/assets/images/exquisite.jpg")}],
       
-        standardevents: [{
-      "link": "https://www.facebook.com/antoniospizzeriapgh",
-      "day": "Every Mon",
-      "month": "",
-      "title": "Vegan Chill Lounge",
-      "desc": "Chill Music, Huge Vegan Menu, Bubble Tea, Dessert, Healing Arts, Relaxation, and Fun!",
-      "image": require("@/assets/images/mondaychill.jpg")
-          }, 
-          {
-      "link": "https://www.facebook.com/antoniospizzeriapgh",
-      "day": "Every Tues",
-      "month": "",
-      "title": "Game Night",
-      "desc": "Tuesdays are game nights at Antonio’s 🍕Every week we will play a different game, please let us know what games you’d like to play! The event is free, but of course everyone is welcome to come buy some food and drinks!",
-      "image": require("@/assets/images/gamenight.jpg")
-  },
+        standardevents: [
+         
   {
     "link": "https://www.facebook.com/antoniospizzeriapgh",
     "day": "Every Wed",

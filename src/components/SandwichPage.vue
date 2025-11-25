@@ -11,10 +11,15 @@
       </div>
     </div>
     <div class = "right-side ">
+      <div class = "food-box2">
+      <PizzaItem class="food-list"  v-show="pitem.vegan === 'yes' && veganOnly === true" :key="pitem.name" v-for="(pitem) in pitems" :item="pitem" />
+      <PizzaItem class="food-list"  v-show="veganOnly === false" :key="pitem.name" v-for="(pitem) in pitems" :item="pitem" />
+      </div>
       <div class = "food-box">
       <PizzaItem class="food-list"  v-show="item.vegan === 'yes' && veganOnly === true" :key="item.name" v-for="(item) in items" :item="item" />
       <PizzaItem class="food-list"  v-show="veganOnly === false" :key="item.name" v-for="(item) in items" :item="item" />
       </div>
+     
    
     
     
@@ -44,11 +49,9 @@ export default {
     sizeColumnWidth: '',
     foodColumnWidth: '',
     items: [
-    { name: 'Cheeseburger', desc: 'American Cheese, Tomatoes, Lettuce, Onions, Pickles, Ketchup, Mustard' },
     { name: 'Chicken Breast', desc: 'Cheese, Lettuce, Tomatoes, Onions, Italian Dressing', vegan: 'yes' },
     { name: 'Chicken Parmesan', desc: 'Cheese, Marinara', vegan: 'yes' },
     { name: 'Fried Buffalo Chicken', desc: 'Cheese, Lettuce, Tomatoes, Onions, Ranch', vegan: 'yes' },
-    { name: 'Fried Fish', desc: 'American Cheese, Lettuce, Tomatoes, Onions, Tartar Sauce', vegan: 'yes' },
     { name: 'Grilled Buffalo Chicken', desc: 'Cheese, Lettuce, Tomatoes, Onions, Ranch', vegan: 'yes' },
     { name: 'Hot Sausage Parmesan', desc: 'Cheese, Onions, Marinara, Green Peppers' , vegan: 'yes' },
     { name: 'Italian', desc: 'Ham, Capicola, Salami, Mozzarella, Lettuce, Tomatoes, Onions, Italian Dressing, Pepperoni', vegan: 'yes' },
@@ -57,16 +60,21 @@ export default {
     { name: 'Steak', desc: 'Italian Dressing, Lettuce, Tomatoes, Onions, Cheese' },
     { name: 'Turkey Club', desc: 'Bacon, American Cheese, Lettuce, Tomatoes, Onions, Mayo' },
     { name: 'Veggie', desc: 'Italian Dressing, Mushrooms, Green Peppers, Onions, Banana Peppers, Black Olives', vegan: 'yes' },
-    { name: 'Hummus', desc: 'Feta, Roasted Red Peppers, Spinach' },
-    { name: 'Muffaletta', desc: 'New Orleans Olive Salad, Mortadella, Salami, Ham, Fresh Mozzarella' },
+    { name: 'Muffuletta', desc: 'New Orleans Olive Salad, Mortadella, Salami, Ham, Fresh Mozzarella' }
+      ],
+      pitems: [
+    { name: 'PREMIUM SANDWICHES', desc: '~~~Premium sandwiches have an additional 3 dollar surcharge~~~', vegan: 'yes'  },
+    { name: 'Cheeseburger', desc: 'American Cheese, Tomatoes, Lettuce, Onions, Pickles, Ketchup, Mustard' },
+    { name: 'Fried Fish', desc: 'American Cheese, Lettuce, Tomatoes, Onions, Tartar Sauce', vegan: 'yes' },
       ],
 
     sizes: [
-    { name: 'Half', price: '$7.00'},
-    { name: 'Whole', price: '$12.00'},
-    { name: 'Wedgie', price: '$15.00'},
-    { name: 'GF Half', price: '$9.00'},
-    { name: 'GF whole', price: '$14.00'},
+    { name: 'Half', price: '$8.00'},
+    { name: 'Whole', price: '$15.00'},
+    { name: 'Wedgie', price: '$17.00'},
+    { name: 'GF Half', price: '$11.00'},
+    { name: 'GF whole', price: '$16.00'},
+    { name: 'Premium Sandwiches', price: '+ $3.00'},
     ]
   }
 },
@@ -187,6 +195,19 @@ li {
 .food-box {
   width: 100%;
   height: 860px;
+  border: 3px double white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-y: scroll;
+}
+
+.food-box2 {
+  width: 100%;
+  height: 300px;
   border: 3px double white;
   border-radius: 10px;
   padding: 20px;

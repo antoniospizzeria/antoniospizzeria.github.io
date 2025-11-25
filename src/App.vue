@@ -41,7 +41,7 @@ export default {
 
   methods: {
     VeganPath() {
-        if(this.$route.path == '/AntoniosPizza/menu/vegan' ) {
+        if(this.$route.path == '/menu/vegan' ) {
           return true
         } else {
           return false

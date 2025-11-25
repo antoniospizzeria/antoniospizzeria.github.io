@@ -1,26 +1,24 @@
 <template>
   <div class = "menu-section">
     <div class = "buffer">
-      <!-- <h1>Limited Time Specials</h1> -->
+      <h1>Limited Time Specials</h1>
     </div>
     <div class = "right-side ">
-      <!-- <div class = "food-box">
+      <div class = "food-box">
         <div class = "inner-food-box">
           <LimitedItem class="limited-box"  v-show="item.vegan === 'yes' && veganOnly === true" :key="item.name" v-for="(item) in items" :item="item" />
           <LimitedItem class="limited-box"  v-show="veganOnly === false" :key="item.name" v-for="(item) in items" :item="item" />
         </div>
-     </div> -->
-     <div>
-      <h1>Daily Coupons</h1>
-    </div>
-    <div class = "right-side ">
+     </div>
+     
+    <!-- <div class = "right-side ">
       <div class = "food-box">
         <div class = "inner-food-box">
           <LimitedItem class="limited-box coupon"  v-show="coupon.vegan === 'yes' && veganOnly === true" :key="coupon.name" v-for="(coupon) in coupons" :item="coupon" />
           <LimitedItem class="limited-box coupon"  v-show="veganOnly === false" :key="coupon.name" v-for="(coupon) in coupons" :item="coupon" />
         </div>
      </div>
-    </div>
+    </div> -->
   </div>
   </div>
 </template>
@@ -37,18 +35,10 @@ export default {
     sizeColumnWidth: '',
     foodColumnWidth: '',
     items: [
-    // { name: "Thanksgiving Pizza", desc: "All your Thanksgiving fixings on one pizza!", price: "Specialty Pizza Prices", vegan: 'yes'}
-    ],
-
-    coupons: [
-    { name: 'Small Specialty Pizza and Half Hoagie', price: '$20.00', vegan: 'yes'},
-    { name: 'Large 1-Topping Pizza',desc: 'Additional toppings can be added for an extra charge', price: '$15.00', vegan: 'yes'},
-    { name: 'Two Whole Hoagies', price: '$18.00', vegan: 'yes'},
-    { name: 'Pizza Hoagie and Wings Combo',desc: 'Get a large plain pizza, whole hoagie, and a dozen wings', price: '$38.00'},
-    { name: 'Vegan Pizza Hoagie and Wings Combo',desc: 'Get a large plain pizza, whole hoagie, and a dozen seitan wings', price: '$32.00', vegan: 'yes'},
-    
-        
-    ],
+    { name: "Thanksgiving Pizza", desc: "All your Thanksgiving fixings on one pizza!", price: "Specialty Pizza Prices", vegan: 'yes'},
+    { name: "Most Gracious Hoagie", desc: "All your Thanksgiving fixings on one Hoagie!", price: "$15.00", vegan: 'yes'},
+    { name: "Gratitude Fries", desc: "You guessed it.  All your Thanksgiving fixings on fries!", price: "$12.00", vegan: 'yes'}
+    ]
 
    
 

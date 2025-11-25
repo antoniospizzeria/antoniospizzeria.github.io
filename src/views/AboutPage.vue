@@ -59,6 +59,7 @@ a {
 
 .main-body {
   height: max-content;
+  width: 100%
 }
 
 

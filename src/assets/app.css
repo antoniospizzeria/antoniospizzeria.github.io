@@ -5,7 +5,8 @@
 body { 
     image-rendering: crisp-edges;
     background-size: cover;
-	background-image: url(./images/pizzaedit.jpg)} 
+	background-image: url(./images/pizzaedit.jpg)} ;
+  background-
 .main-body {
     display: flex;
     background: rgba(0,0,0,0.65);
