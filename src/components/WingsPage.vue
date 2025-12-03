@@ -24,13 +24,6 @@
           <h2>Wing add ons</h2>
           <p>Celery, Ranch, Blue cheese</p>
         </div>
-        <div>
-          <h2>Fry add ons</h2>
-        <div class="topping-list">
-          <ToppingList class="topping-item"  v-show="mod.vegan === 'yes' && veganOnly === true" :key="mod.name" v-for="(mod) in mods" :topping="mod" />
-          <ToppingList class="topping-item"  v-show="veganOnly === false" :key="mod.name" v-for="(mod) in mods" :topping="mod" />
-        </div>
-        </div>
       </div>
    
     
@@ -65,12 +58,7 @@ export default {
     toppings: wingsauce,
     sizes: wingsize,
 
-    mods: [
-      {name: 'Chili', vegan: 'yes'},
-      {name: 'Shredded Cheese', vegan: 'yes'},
-      {name: 'Nacho Cheese',},
-      {name: 'Bacon', vegan: 'yes'},
-    ],
+   
   }
 },
   props: {

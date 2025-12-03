@@ -35,9 +35,7 @@ export default {
     sizeColumnWidth: '',
     foodColumnWidth: '',
     items: [
-    { name: "Thanksgiving Pizza", desc: "All your Thanksgiving fixings on one pizza!", price: "Specialty Pizza Prices", vegan: 'yes'},
-    { name: "Most Gracious Hoagie", desc: "All your Thanksgiving fixings on one Hoagie!", price: "$15.00", vegan: 'yes'},
-    { name: "Gratitude Fries", desc: "You guessed it.  All your Thanksgiving fixings on fries!", price: "$12.00", vegan: 'yes'}
+    { name: "Check Back Soon!", desc: "______________________", price: "_____________", vegan: 'yes'}
     ]
 
    

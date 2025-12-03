@@ -1,7 +1,7 @@
 <template>
   <div class = "main-body  shadow-drop-2-center  ">
       <b-carousel
-        class = "fade-in"
+        class = "fade-in carobox"
         id="carousel-1"
         v-model="slide"
         :interval="8000"
@@ -14,7 +14,7 @@
       >
         <!-- Text slides with image -->
 
-          <b-carousel-slide >
+          <b-carousel-slide>
             <CTAbuttonOutside class="slide-button " text='ORDER NOW!'  :link="'https://antoniospizzeria.hungerrush.com/Order/Menu/1#pizza'" /> 
          
           <template #img>
@@ -213,6 +213,12 @@ img {
   font-family: juice;
   font-weight: bolder;
 }
+
+
+.carobox {
+  width:85vw;
+}
+
 
 .tweaked-color {
   background-color: rgba(0,0,0,.75);
