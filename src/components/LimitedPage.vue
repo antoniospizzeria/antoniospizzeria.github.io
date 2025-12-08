@@ -35,7 +35,12 @@ export default {
     sizeColumnWidth: '',
     foodColumnWidth: '',
     items: [
-    { name: "Check Back Soon!", desc: "______________________", price: "_____________", vegan: 'yes'}
+    { name: "Coquito Boba", desc: "Puerto Rican inspired eggnog boba with tapioca pearls", price: "6.00", vegan: 'yes'},
+    { name: "Dirty Pile of Snow Boba", desc: "Peppermint chocolate milk tea with tapioca pearls", price: "6.00", vegan: 'yes'},
+    { name: "How the Grinch Stole Boba", desc: "Honeydew milk tea with cherry, strawberry, and tapioca perals", price: "6.00", vegan: 'yes'},
+    { name: "Jack Frost Boba", desc: "Blue raspberry, pineapple, and coconut with lychee stars", price: "6.00", vegan: 'yes'},
+    { name: "Rudolphs Red Nose Boba", desc: "Lime, mango, guava drink with cherry popping boba", price: "5.00", vegan: 'yes'},
+    { name: "Winter Break Boba", desc: "Chai milk tea with vanilla and tapioca pearls", price: "5.00", vegan: 'yes'},
     ]
 
    

@@ -41,6 +41,7 @@ export default {
     { name: 'Fried Mushrooms', price:'$9.00' },
     { name: 'Fried Pickles', price:'$9.00', vegan: 'yes'  },
     { name: 'Fried Zucchini', price:'$9.00' },
+    { name: 'Buffalo Cauliflower', price:'$7.00' },
     { name: 'Garlic Bread', price:'$4.00', vegan: 'yes'  },
     { name: 'Hot Pepper Balls', price:'$8.00' },
     { name: 'Mac n Cheese Bites', price:'$9.00' },
