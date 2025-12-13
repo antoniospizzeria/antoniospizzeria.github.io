@@ -69,6 +69,7 @@ export default {
       ],
 
     sizes: [
+    { name: 'Wrap', price: '$8.00'},
     { name: 'Half', price: '$8.00'},
     { name: 'Whole', price: '$15.00'},
     { name: 'Wedgie', price: '$17.00'},
