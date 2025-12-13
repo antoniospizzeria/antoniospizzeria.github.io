@@ -4,12 +4,9 @@
 { "name": "Buffalo","vegan": "yes"},
 { "name": "Cajun","vegan": "yes"},
 { "name": "Cajun Garlic","vegan": "yes"},
-{ "name": "Carson - Mustard"},
 { "name": "Garlic Parmesan","vegan": "yes"},
 { "name": "General Tso","vegan": "yes"},
 { "name": "Honey Mustard","vegan": "yes"},
-{ "name": "Hot Metal Bluberry"},
-{ "name": "Liberty - Smokey"},
 { "name": "Mango Habanero","vegan": "yes"},
 { "name": "Old Bay","vegan": "yes"},
 { "name": "Plain","vegan": "yes"},
@@ -19,7 +16,5 @@
 { "name": "Spicy BBQ","vegan": "yes"},
 { "name": "Spicy Garlic","vegan": "yes"},
 { "name": "Umami"},
-{ "name": "Wabash - Ghost"},
-{ "name": "Wing Dust","vegan": "yes"},
-{ "name": "Youghiogheny","vegan": "yes"}
+{ "name": "Wing Dust","vegan": "yes"}
 ]
