@@ -70,7 +70,7 @@ export default {
     { name: '16in', price:'$2.75' },
     { name: '18in', price:'$3.00' },
     { name: 'GF 12in', price:'$1.75' },
-    { name: 'Slice', price:'$0.33' },
+    { name: 'Slice', price:'$0.50' },
     ],
 
     toppings: [
@@ -140,17 +140,17 @@ export default {
 
     ],
     sizes: [
-    { name: '10in', price: '$10.00', vegan: 'yes' },
-    { name: '12in', price: '$12.00', vegan: 'yes' },
-    { name: '14in', price: '$14.00', vegan: 'yes' },
-    { name: '16in', price: '$16.00', vegan: 'yes' },
-    { name: '18in', price: '$17.00', vegan: 'yes' },
-    { name: 'GF 12in', price: '$11.00', vegan: 'yes' },
-    { name: 'Slice', price: '$2.50', vegan: 'yes' },
-    { name: 'Deep Dish', price: '$15.00',vegan: 'yes' },
+    { name: '10in', price: '$11.00', vegan: 'yes' },
+    { name: '12in', price: '$14.00', vegan: 'yes' },
+    { name: '14in', price: '$16.00', vegan: 'yes' },
+    { name: '16in', price: '$18.00', vegan: 'yes' },
+    { name: '18in', price: '$20.00', vegan: 'yes' },
+    { name: 'GF 12in', price: '$13.00', vegan: 'yes' },
+    { name: 'Slice', price: '$3.00', vegan: 'yes' },
+    { name: 'Deep Dish', price: '$17.00',vegan: 'yes' },
     { name: 'Pizza Boat', price: '$10.00', vegan: 'yes' },
-    { name: 'Stromboli', price: '$15.00', vegan: 'yes' },
-    { name: 'Calzone', price: '$15.00', vegan: 'yes' },
+    { name: 'Stromboli', price: '$17.00', vegan: 'yes' },
+    { name: 'Calzone', price: '$17.00', vegan: 'yes' },
 
     ]
   }
