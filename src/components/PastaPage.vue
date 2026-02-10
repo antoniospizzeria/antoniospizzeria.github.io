@@ -40,11 +40,11 @@ export default {
     sizeColumnWidth: '',
     foodColumnWidth: '',
     items: [
-    { name: 'Penne Pasta',desc: 'Your choice of Marinara, Alfredo, or Aglio Olio.  Alfredo is not vegan.', price:'$10.00', vegan: 'yes' },
-    { name: 'Baked Penne',desc: 'Penne baked with mozzarella and marinara ', price:'$11.00', vegan: 'yes' },
-    { name: 'Chicken Alfredo',desc: 'Grilled Chicken with Alfredo Sauce', price:'$14.00' },
-    { name: 'Chicken Parm Pasta',desc: 'Breaded Chicken with Mozzarella, Mozzarella, and Parmesan', price:'$14.00', vegan: 'yes' },
-    { name: 'Stuffed Shells',desc: 'Baked with Marinara and Mozzarella Cheese', price:'$11.00' },
+    { name: 'Penne Pasta',desc: 'Your choice of Marinara, Alfredo, or Aglio Olio.  Alfredo is not vegan.', price:'$11.00', vegan: 'yes' },
+    { name: 'Baked Penne',desc: 'Penne baked with mozzarella and marinara ', price:'$12.00', vegan: 'yes' },
+    { name: 'Chicken Alfredo',desc: 'Grilled Chicken with Alfredo Sauce', price:'$15.00' },
+    { name: 'Chicken Parm Pasta',desc: 'Breaded Chicken with Mozzarella, Mozzarella, and Parmesan', price:'$15.00', vegan: 'yes' },
+    { name: 'Stuffed Shells',desc: 'Baked with Marinara and Mozzarella Cheese', price:'$12.00' },
     ],
     gyros: [
     { name: 'Traditional Lamb Gyro', desc: 'Topped with lettuce, tomato, onion, and tzaziki sauce.', price:'$8.00' },

@@ -62,8 +62,8 @@ export default {
     ],
 
     toppings : [
-    { name: '20 oz. Bottle - $1.98'},
-    { name: '2 Liter Bottle - $3.48'}
+    { name: '20 oz. Bottle - $3'},
+    { name: '2 Liter Bottle - $5.5'}
         ],
 
   }
